@@ -14,6 +14,34 @@ Voice • Automation • AI Agents • Memory
 
 EchoMind is an AI-powered desktop assistant that leverages voice interaction, AI agents, and desktop automation to streamline everyday workflows.
 
+## 🏗️ Architecture
+
+```text
++-------------+
+| Voice Input |
++------+------+
+       |
+       v
++----------------------+
+| Speech-to-Text       |
+| (Whisper)            |
++------+---------------+
+       |
+       v
++----------------------+
+| LLM / AI Agent       |
++------+---------------+
+       |
+       +--------------------+
+       |                    |
+       v                    v
+Desktop Automation      AI Memory
+       |                    |
+       +----------+---------+
+                  |
+                  v
+          Response (Voice/UI)
+
 ## ✨ Features
 
 - 🎤 Voice transcription
