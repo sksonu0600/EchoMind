@@ -1,0 +1,26 @@
+{
+  "name": "ai-assistant-frontend",
+  "private": true,
+  "version": "0.0.0",
+  "main": "electron/main.js",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build && electron-builder",
+    "electron:dev": "concurrently \"vite\" \"wait-on tcp:5173 && electron .\""
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.15",
+    "@types/react-dom": "^18.2.7",
+    "@vitejs/plugin-react": "^4.0.3",
+    "concurrently": "^8.2.0",
+    "electron": "^41.3.0",
+    "electron-builder": "^26.8.1",
+    "typescript": "^5.0.2",
+    "vite": "^8.0.10",
+    "wait-on": "^7.0.1"
+  }
+}
