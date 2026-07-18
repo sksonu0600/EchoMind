@@ -1,3 +1,13 @@
+EchoMind
+AI-Powered Desktop Assistant
+Voice • Automation • AI Agents • Memory
+
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-Latest-green)
+![Electron](https://img.shields.io/badge/Electron-Desktop-blue)
+![Status](https://img.shields.io/badge/Status-Work%20In%20Progress-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
 # EchoMind
 
 > 🚧 **Status:** Work in Progress
